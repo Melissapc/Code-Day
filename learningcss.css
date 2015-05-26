@@ -1,0 +1,113 @@
+
+@font-face{
+    font-family:  "pricedown";
+    src: url("pricedown bl.ttf");
+}
+
+h1 {
+    font-family: "pricedown", Times, serif;
+    font-size:60px;
+}
+
+nav {
+    border-bottom:1px solid #000;
+    font-weight:bold;
+    font-size:21px;
+    letter-spacing:0.1em;
+    text-align:center;
+}
+nav li {
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.8);
+    border-radius: 10px;
+    background-color:#ff0000;
+    display:inline;
+    border:1px solid #800000;
+}
+
+body{
+    font-family: "MS Sans Serif", Times, serif;
+    background-color:#0080ff;
+}
+
+#container{
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 5px black;
+    color:#000000; 
+    background-color:#008000; 
+    width:90%; 
+    height:100%; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding: 5px;
+    border:thin solid #000; 
+    overflow:auto;
+}
+#header{
+    background-color:#008000; 
+    border-bottom:thin solid #7DCED2;
+    padding:5px 10px 15px 20px;
+}
+#content{
+    background-color:#80ffff;
+    margin:0;
+    padding-left: 15px;
+    overflow:hidden;
+    min-height:500px;
+    clear:both;
+}
+#footer{
+    background-color:#285943
+    padding:10px 10px 10px 10px;
+    text-align: center;
+}
+
+div.prev {
+    width: 40%;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+div.next {
+    width: 48%;
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+div.example_code {
+    width: auto;
+    background-color: #ffffff;
+    padding: 1.1%;
+    border-left: 4px solid #8AC007;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+
+a:link {
+    color:#00ff00;
+    text-decoration:none;
+}
+
+a:visited{
+    color:#400080;
+    background-color:#0080ff;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:red;
+    background-color:#0000a0;
+    font-size:110%;
+}
+a:active{
+    color:blue;
+    Background-color:blue;
+}

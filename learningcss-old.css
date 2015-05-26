@@ -1,0 +1,97 @@
+
+body {
+    background-color:#D7FFF1;
+}
+	
+nav {	
+    border-bottom:1px solid #000;
+    font-weight:bold;
+    font-size:21px;
+    letter-spacing:0.1em;
+    text-align:center;}
+    nav li {
+    background-color:#8BE8CB;
+    display:inline;
+    border:1px solid #84895C;
+
+}
+
+#container {
+    color:#000000; 
+    background-color:#AAFCB8; 
+    width:80%; 
+    height:100%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border:thin solid #000; 
+    overflow:auto;
+}
+
+#header {
+    background-color:#7DCED2; 
+    border-bottom:thin solid #7DCED2;
+    padding:5px 10px 15px 20px;
+}
+#content{
+    background-color:#D0FEF5;
+    margin:0;
+    overflow:hidden;
+    min-height:500px;
+    clear:both;
+}
+
+#footer{
+    background-color:#285943
+    padding:10px 10px 10px 10px;
+}
+
+div.prev {
+width: 40%;
+float: left;
+text-align: left;
+overflow: hidden;
+white-space: nowrap;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+div.next {
+width: 48%;
+float: right;
+text-align: right;
+white-space: nowrap;
+overflow: hidden;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+div.example_code {
+width: auto;
+background-color: #ffffff;
+padding: 1.1%;
+border-left: 4px solid #8AC007;
+border-radius: 4px;
+word-wrap: break-word;
+}
+
+// Link Effects
+
+a:link {
+color:#0000;
+
+text-decoration:none;
+}
+a:visited{
+color:orange;
+background-color:blue;
+text-decoration:none;
+}
+a:hover{
+color:blue;
+background-color:#4DFFF3;
+text-decoration:underline;
+}
+a:active{
+color:blue;
+Background-color:blue;
+}
